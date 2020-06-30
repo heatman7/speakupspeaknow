@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ProtectedRoute from 'src/components/ProtectedRoute'
 import { AuthLevel } from 'src/config'
 import LandingPage from 'src/pages/LandingPage'
+import SJEmail2 from 'src/pages/SJEmail2'
 
 interface PageType {
   name: string
@@ -18,6 +19,12 @@ export const pages: Array<PageType> = [
     exact: true,
     path: '/',
     component: LandingPage,
+  },
+  {
+    name: 'JusticeForGregoryJohnsonJr',
+    exact: true,
+    path: '/j4gjj',
+    component: SJEmail2,
   },
 ]
 
