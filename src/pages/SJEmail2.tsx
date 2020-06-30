@@ -81,20 +81,6 @@ const SJEmail2 = () => {
             </ExternalLink>
           </Box>
         </Box>
-
-        <Box mt={5} pt={3} borderTop={`1px solid ${colors.textGray}`}>
-          <Text.Body color="white" mb={2}>
-            Speak up, Speak now is an intitative that empowers the people to
-            hold their city officials accountable. Thanks to the help of a LOT
-            of people, we've collected the contact information of city officials
-            from all over California, and even several major U.S cities. Want to
-            contribute? Reach out at{' '}
-            <ExternalLink href="mailto:tips@speakupspeaknow.org">
-              tips@speakupspeaknow.org
-            </ExternalLink>
-            .
-          </Text.Body>
-        </Box>
       </Box>
     </Box>
   )
